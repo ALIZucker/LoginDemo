@@ -47,8 +47,8 @@ function SwapRight() {
     imag_in.style.transition = "all 1.4s linear";
     imag.style.transition = "all 1.4s  ease-in-out";
     reg.style.visibility = "visible";
-    login.style.visibility="hidden";
-    login.style.transition="all 1s ease-in-out"
+    login.style.visibility = "hidden";
+    login.style.transition = "all 1s ease-in-out"
 }
 
 function Swapleft() {
@@ -58,8 +58,8 @@ function Swapleft() {
     imag_in.style.transition = "all 1.4s linear";
     imag.style.transition = "all 1.4s  ease-in-out";
     reg.style.visibility = "hidden";
-    login.style.visibility= "visible";
-    reg.style.transition="all 1s ease-in-out"
+    login.style.visibility = "visible";
+    reg.style.transition = "all 1s ease-in-out"
 }
 
 function changetext(part) {

@@ -31,9 +31,11 @@ body {
   border-radius: 16px;
 
 }
-#registration{
+
+#registration {
   visibility: hidden;
 }
+
 #imag_main {
   position: absolute;
   left: 0;
@@ -67,7 +69,7 @@ article {
 
 .box_input {
   @include sizeall(35vw, 20vh, 8vh, 0, 0);
- font-weight: 600;
+  font-weight: 600;
 }
 
 .box_input input {
@@ -107,18 +109,22 @@ article {
   @include textstyle(0.9vw, black, 2vh, 3vw, 6vw);
   padding-bottom: 2vh;
 }
-#create:hover, #create2:hover{
-background-color: #136B65FF;
+
+#create:hover, #create2:hover {
+  background-color: #136B65FF;
 }
+
 #create, #create2 {
   background-color: $base_color;
   color: floralwhite;
   border-radius: 16px;
   cursor: pointer;
 }
-#cancel:hover, #cancel2:hover{
-background-color: #211C3BFF;
+
+#cancel:hover, #cancel2:hover {
+  background-color: #211C3BFF;
 }
+
 #cancel, #cancel2 {
   background-color: #322a59;
   color: floralwhite;
@@ -148,13 +154,25 @@ background-color: #211C3BFF;
   font-weight: 600;
   text-transform: capitalize;
 }
+
 @keyframes tilt-shaking {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(5deg); }
-  50% { transform: rotate(0deg); }
-  75% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
+
 @keyframes shake {
   0% {
     transform: translateX(0)
