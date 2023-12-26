@@ -7,5 +7,8 @@
         @apply absolute bg-gradient-to-r from-green-900 to-green-400  text-white text-[2vw] top-[30%] pt-[9vh] left-[30%] w-[40vw] h-[40vh] text-center rounded-3xl
         shadow-2xl shadow-gray-800;
     }
+    .alartmetext{
+        @apply cursor-pointer uppercase block mt-[5vh] border-2 border-solid border-orange-200 mx-[40%] hover:bg-white hover:text-black;
+    }
 
 }

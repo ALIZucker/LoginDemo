@@ -20,7 +20,7 @@ function create(param) {
         let passlogin = PassLogin.value;
 
         const person = {Username: textUsername, Password: passlogin}
-        show("Username:" + person["Username"] + "----Password:" + person["Password"], 1)
+        show("Username:" + person["Username"] + "<br> Password:" + person["Password"], 1)
 
 
     } else if (param == 2) {
@@ -29,7 +29,7 @@ function create(param) {
         let passlogin = PassRegist.value;
 
         const person = {Username: textUsername, EmailUser: emailusername, Password: passlogin}
-        show("Username: " + person["Username"] + "----Password: " + person["Password"] + "-----Email: " + person["EmailUser"], 1)
+        show("Username: " + person["Username"] + "<br> Password: " + person["Password"] + "<br> Email: " + person["EmailUser"], 1)
 
     }
 }
@@ -102,7 +102,7 @@ function changetext(part) {
 function show(str, select) {
     if (select == 1) {
         showme.style.display = "block";
-        showmetext.innerText = str;
+        showmetext.innerHTML = str;
     } else {
         showme.style.display = "none";
     }

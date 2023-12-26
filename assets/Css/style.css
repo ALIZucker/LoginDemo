@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to left, #1a9c94, #2ec49e); }
+  background-image: linear-gradient(to left, #199f98, #2ec49e); }
 
 .desktopBox {
   display: flex;
@@ -40,7 +40,7 @@ article {
 
 .title {
   font-size: 4vw;
-  color: #1a9c94;
+  color: #199f98;
   padding-top: 8vh;
   padding-left: 0;
   padding-right: 0; }
@@ -114,14 +114,20 @@ article {
   padding-right: 6vw;
   padding-bottom: 2vh; }
 
+#create:hover, #create2:hover {
+  background-color: #136B65FF; }
+
 #create, #create2 {
-  background-color: #1a9c94;
+  background-color: #199f98;
   color: floralwhite;
   border-radius: 16px;
   cursor: pointer; }
 
+#cancel:hover, #cancel2:hover {
+  background-color: #211C3BFF; }
+
 #cancel, #cancel2 {
-  background-color: #322b57;
+  background-color: #322a59;
   color: floralwhite;
   border-radius: 16px;
   cursor: pointer; }

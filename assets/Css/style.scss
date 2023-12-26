@@ -1,4 +1,4 @@
-$base_color: #1a9c94;
+$base_color: #199f98;
 $base_color2: #2ec49e;
 
 @mixin sizeall($size_w,$size_h,$m_t,$m_l,$m_r) {
@@ -107,16 +107,20 @@ article {
   @include textstyle(0.9vw, black, 2vh, 3vw, 6vw);
   padding-bottom: 2vh;
 }
-
+#create:hover, #create2:hover{
+background-color: #136B65FF;
+}
 #create, #create2 {
   background-color: $base_color;
   color: floralwhite;
   border-radius: 16px;
   cursor: pointer;
 }
-
+#cancel:hover, #cancel2:hover{
+background-color: #211C3BFF;
+}
 #cancel, #cancel2 {
-  background-color: #322b57;
+  background-color: #322a59;
   color: floralwhite;
   border-radius: 16px;
   cursor: pointer;
