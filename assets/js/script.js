@@ -96,12 +96,12 @@ function changetext(part) {
         }
     } else if (part == 3) {
         if (EmailRegist.value.includes("@gmail.com")) {
-            error2.innerText = "Ok.your username is currently ";
+            error2.innerText = "Ok.your Email is currently ";
             error2.style.display = "inline-block"
             error2.style.color = "green"
 
         } else {
-            error2.innerText = "string contains only letters and numbers. ";
+            error2.innerText = "string contains only @gmail.com. ";
             error2.style.display = "inline-block"
             error2.style.color = "red"
 
