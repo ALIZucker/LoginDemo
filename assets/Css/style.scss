@@ -35,8 +35,6 @@ body {
 #imag_main {
   position: absolute;
   left: 0;
-  z-index: 0;
-  // display: none;
   @include sizeall(50%, 85vh, 0, 0, 0);
 
 }

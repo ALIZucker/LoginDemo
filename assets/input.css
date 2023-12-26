@@ -11,4 +11,11 @@
         @apply cursor-pointer uppercase block mt-[5vh] border-2 border-solid border-orange-200 mx-[40%] hover:bg-white hover:text-black;
     }
 
+
+}
+@layer utilities {
+
+    .texts{
+        @apply absolute uppercase top-[5vh] left-[3vw]   font-extrabold border-4 px-4 rounded-2xl border-gray-400 border-dashed;
+    }
 }
