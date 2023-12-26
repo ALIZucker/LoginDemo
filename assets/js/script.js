@@ -1,3 +1,7 @@
+const login = document.getElementById('Login');
+const reg = document.getElementById('registration');
+
+
 const imag = document.getElementById('imag_main');
 const imag_in = document.getElementById('imge-side');
 
@@ -39,17 +43,23 @@ function create(param) {
 function SwapRight() {
     imag.style.transform = "translateX(42vw)";
     imag_in.style.borderBottomRightRadius = "0";
-    imag_in.style.borderBottomLeftRadius = "340px";
+    imag_in.style.borderBottomLeftRadius = "360px";
     imag_in.style.transition = "all 1.4s linear";
     imag.style.transition = "all 1.4s  ease-in-out";
+    reg.style.visibility = "visible";
+    login.style.visibility="hidden";
+    login.style.transition="all 1s ease-in-out"
 }
 
 function Swapleft() {
     imag.style.transform = "translateX(0)";
-    imag_in.style.borderBottomRightRadius = "300px";
+    imag_in.style.borderBottomRightRadius = "360px";
     imag_in.style.borderBottomLeftRadius = "0";
     imag_in.style.transition = "all 1.4s linear";
     imag.style.transition = "all 1.4s  ease-in-out";
+    reg.style.visibility = "hidden";
+    login.style.visibility= "visible";
+    reg.style.transition="all 1s ease-in-out"
 }
 
 function changetext(part) {

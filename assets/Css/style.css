@@ -13,6 +13,9 @@ body {
   margin-right: 0;
   border-radius: 16px; }
 
+#registration {
+  visibility: hidden; }
+
 #imag_main {
   position: absolute;
   left: 0;
@@ -25,7 +28,7 @@ body {
 #imag_main > img {
   width: 95%;
   height: 100%;
-  border-bottom-right-radius: 300px; }
+  border-bottom-right-radius: 360px; }
 
 article {
   width: 50%;
