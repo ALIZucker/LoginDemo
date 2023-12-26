@@ -35,7 +35,7 @@ body {
 #imag_main {
   position: absolute;
   left: 0;
-  @include sizeall(50%, 85vh, 0, 0, 0);
+  @include sizeall(42vw, 85vh, 0, 0, 0);
 
 }
 

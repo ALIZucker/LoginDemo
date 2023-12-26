@@ -39,7 +39,7 @@ function create(param) {
 function SwapRight() {
     imag.style.transform = "translateX(42vw)";
     imag_in.style.borderBottomRightRadius = "0";
-    imag_in.style.borderBottomLeftRadius = "400px";
+    imag_in.style.borderBottomLeftRadius = "340px";
     imag_in.style.transition = "all 1.4s linear";
     imag.style.transition = "all 1.4s  ease-in-out";
 }
